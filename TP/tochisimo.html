@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Grilla con Cuadrados Sonidos y Letras</title>
+</head>
+<body>
+<div class="grid">
+    <div class="square" onclick="playSound(1)">
+        <span>OZUNA</span>
+    </div>
+    <div class="square" onclick="playSound(2)">
+        <span>SIUUU</span>
+    </div>
+    <div class="square" onclick="playSound(3)">
+        <span>SPIDER-MAN</span>
+    </div>
+    <div class="square" onclick="playSound(4)">
+        <span>TODOROV</span>
+    </div>
+    <div class="square" onclick="playSound(5)">
+        <span>BANCAN </span>
+    </div>
+    <div class="square" onclick="playSound(6)">
+        <span>VEGETTA777</span>
+    </div>
+    <div class="square" onclick="playSound(7)">
+        <span>FUMETEO</span>
+    </div>
+    <div class="square" onclick="playSound(8)">
+        <span>DISFRUTA</span>
+    </div>
+    <div class="square" onclick="playSound(9)">
+        <span>GONZA IN</span>
+    </div>
+</div>
+<ul><button id="dataButton">Mostrar Datos</button></ul>
+
+<button onclick="obtenerDatos()"> Traer datos </button>
+
+<div id="dataContainer">
+    <div id="dataBox">
+        <h2>Datos de Clics</h2>
+        <div>Clics en Ozuna: <span id="dataCount1">0</span></div>
+        <div>Clics en SIUUU: <span id="dataCount2">0</span></div>
+        <div>Clics en SPIDER-MAN: <span id="dataCount3">0</span></div>
+        <div>Clics en TODOROV: <span id="dataCount4">0</span></div>
+        <div>Clics en BANCAN : <span id="dataCount5">0</span></div>
+        <div>Clics en VEGETTA777: <span id="dataCount6">0</span></div>
+        <div>Clics en FUMETEO: <span id="dataCount7">0</span></div>
+        <div>Clics en DISFRUTA: <span id="dataCount8">0</span></div>
+        <div>Clics en GONZA IN: <span id="dataCount9">0</span></div>
+        <button id="closeButton">Cerrar</button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
